@@ -1,0 +1,12 @@
+data/raw/deribit/
+data/raw/dolt/*.tried
+data/raw/*.log
+data/derived/*.duckdb
+data/derived/*_daily.parquet
+data/derived/atm_by_expiry_*.parquet
+data/derived/forecast_*.parquet
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+results/*.log
