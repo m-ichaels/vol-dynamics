@@ -1,0 +1,161 @@
+{
+ "us_realised": {
+  "symbols": [
+   "AAPL",
+   "AMZN",
+   "EEM",
+   "GLD",
+   "GOOGL",
+   "GS",
+   "IBM",
+   "TLT",
+   "USO",
+   "^DJI",
+   "^GSPC",
+   "^NDX",
+   "^RUT"
+  ],
+  "rows": 65403
+ },
+ "estimator_ratio_to_cc": {
+  "cc": {
+   "AAPL": 1.0,
+   "AMZN": 1.0,
+   "EEM": 1.0,
+   "GLD": 1.0,
+   "GOOGL": 1.0,
+   "GS": 1.0,
+   "IBM": 1.0,
+   "TLT": 1.0,
+   "USO": 1.0,
+   "^DJI": 1.0,
+   "^GSPC": 1.0,
+   "^NDX": 1.0,
+   "^RUT": 1.0
+  },
+  "park": {
+   "AAPL": 0.668,
+   "AMZN": 0.639,
+   "EEM": 0.399,
+   "GLD": 0.461,
+   "GOOGL": 0.616,
+   "GS": 0.709,
+   "IBM": 0.607,
+   "TLT": 0.48,
+   "USO": 0.534,
+   "^DJI": 0.649,
+   "^GSPC": 0.605,
+   "^NDX": 0.584,
+   "^RUT": 0.576
+  },
+  "gk": {
+   "AAPL": 0.672,
+   "AMZN": 0.645,
+   "EEM": 0.397,
+   "GLD": 0.47,
+   "GOOGL": 0.624,
+   "GS": 0.729,
+   "IBM": 0.623,
+   "TLT": 0.472,
+   "USO": 0.553,
+   "^DJI": 0.59,
+   "^GSPC": 0.542,
+   "^NDX": 0.559,
+   "^RUT": 0.491
+  },
+  "rs": {
+   "AAPL": 0.691,
+   "AMZN": 0.659,
+   "EEM": 0.408,
+   "GLD": 0.486,
+   "GOOGL": 0.633,
+   "GS": 0.741,
+   "IBM": 0.639,
+   "TLT": 0.469,
+   "USO": 0.564,
+   "^DJI": 0.581,
+   "^GSPC": 0.525,
+   "^NDX": 0.561,
+   "^RUT": 0.47
+  },
+  "yz21": {
+   "AAPL": 1.088,
+   "AMZN": 1.07,
+   "EEM": 0.906,
+   "GLD": 0.998,
+   "GOOGL": 1.038,
+   "GS": 1.072,
+   "IBM": 1.024,
+   "TLT": 0.945,
+   "USO": 1.034,
+   "^DJI": 0.71,
+   "^GSPC": 0.669,
+   "^NDX": 0.911,
+   "^RUT": 0.601
+  }
+ },
+ "crypto": {
+  "BTC": {
+   "days_realised": 2956,
+   "jump_share_5pct": 0.31799729364005414,
+   "jump_share_1pct": 0.2591339648173207,
+   "jv_share_of_rv": 0.0643071499582218,
+   "ann_vol_rv": 0.6729708987785231,
+   "ann_vol_cc": 0.6379246397807719,
+   "days_implied": 3406,
+   "implied_first": "2017-02-14",
+   "implied_last": "2026-09-18",
+   "prints_used": 12218677,
+   "dvol_check": {
+    "n": 2005,
+    "corr": 0.9852481844279352,
+    "mean_diff_pts": -4.032446313212399,
+    "mad_pts": 4.1285101259127615,
+    "corr_changes": 0.582759517966537
+   },
+   "slices": {
+    "n_days": 3459,
+    "rmse_vol_points_median": 1.7713349754645817,
+    "butterfly_ok_share": 1.0,
+    "atm_vol_mean": 0.6510574432372014,
+    "skew_25_mean": 0.03674467791002025
+   }
+  },
+  "ETH": {
+   "days_realised": 2744,
+   "jump_share_5pct": 0.2725947521865889,
+   "jump_share_1pct": 0.2197521865889213,
+   "jv_share_of_rv": 0.04449079797729586,
+   "ann_vol_rv": 0.8505441059869431,
+   "ann_vol_cc": 0.8268934823013532,
+   "days_implied": 2738,
+   "implied_first": "2019-03-21",
+   "implied_last": "2026-09-18",
+   "prints_used": 7153447,
+   "dvol_check": {
+    "n": 2005,
+    "corr": 0.9855346972263249,
+    "mean_diff_pts": -4.9417766790794815,
+    "mad_pts": 5.048017925899473,
+    "corr_changes": 0.5987254358804092
+   },
+   "slices": {
+    "n_days": 2739,
+    "rmse_vol_points_median": 1.5677357066026087,
+    "butterfly_ok_share": 1.0,
+    "atm_vol_mean": 0.727213501567367,
+    "skew_25_mean": 0.037730115003325355
+   }
+  }
+ },
+ "spy_slices": {
+  "n_days": 1267,
+  "rmse_vol_points_median": 0.9800409109127941,
+  "butterfly_ok_share": 1.0,
+  "atm_vol_mean": 0.15913546862529038,
+  "skew_25_mean": 0.057909522413710425,
+  "first": "2019-02-09",
+  "last": "2026-09-17"
+ },
+ "seconds": 445
+}

@@ -1,0 +1,18 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install numpy pandas pyarrow scipy duckdb matplotlib fpdf2 pytest
+      - name: unit tests (estimators, jump test, HAR, GARCH, DM, premium, VX roll, option engine, implied-move stripping)
+        run: python -m pytest -q
+      - name: the VIX complex on the committed Cboe data, the figures and the summary
+        run: |
+          python -m voldyn vix
+          python scripts/plots.py
+          python scripts/summarize.py

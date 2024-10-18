@@ -1,0 +1,8 @@
+...........                                                              [100%]
+============================== warnings summary ===============================
+tests/test_premia_vix_strategies.py::test_vrp_recovers_planted_premium
+  F:\Mike's stuff\Coding\ProjectI\voldyn\premia.py:77: RuntimeWarning: invalid value encountered in sqrt
+    out["rv_on_iv"] = {"intercept": float(b[0] * 1e4), "slope": float(b[1]), "slope_se_nw": float(np.sqrt(V[1, 1])), "r2": float(1 - resid.var() / df["rv2"].var())}
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+11 passed, 1 warning in 63.32s (0:01:03)
